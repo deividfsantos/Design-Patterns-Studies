@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SingletonTeste.iml" filepath="$PROJECT_DIR$/.idea/modules/SingletonTeste.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SingletonTeste_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SingletonTeste_main.iml" group="SingletonTeste" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SingletonTeste_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SingletonTeste_test.iml" group="SingletonTeste" />
     </modules>
   </component>
 </project>
