@@ -6,6 +6,10 @@ public class Car {
     private String model;
     private int year;
 
+    public Car(){
+
+    }
+
     public Car(String color, String licensePlate, String brand, String model, int year) {
         this.color = color;
         this.licensePlate = licensePlate;
@@ -56,12 +60,12 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
-                "color='" + color + '\'' +
-                ", licensePlate='" + licensePlate + '\'' +
-                ", brand='" + brand + '\'' +
-                ", model='" + model + '\'' +
-                ", year=" + year +
+        return "\n\nCar{" +
+                "\ncolor='" + color + '\'' +
+                "\nlicensePlate='" + licensePlate + '\'' +
+                "\nbrand='" + brand + '\'' +
+                "\nmodel='" + model + '\'' +
+                "\nyear=" + year +
                 '}';
     }
 }

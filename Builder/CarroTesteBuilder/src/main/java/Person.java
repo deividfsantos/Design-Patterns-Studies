@@ -6,6 +6,10 @@ public class Person {
     private Car car;
     private Adress adress;
 
+    public Person(){
+
+    }
+
     public Person(String name, long phone, int age, Car car, Adress adress) {
         this.name = name;
         this.phone = phone;
@@ -56,12 +60,12 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", phone=" + phone +
-                ", age=" + age +
-                ", car=" + car +
-                ", adress=" + adress +
+        return "\n\nPerson{" +
+                "\nname='" + name + '\'' +
+                "\nphone=" + phone +
+                "\nage=" + age +
+                "\ncar=" + car +
+                "\nadress=" + adress +
                 '}';
     }
 }

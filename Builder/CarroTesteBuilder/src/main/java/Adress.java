@@ -5,6 +5,8 @@ public class Adress {
     private String state;
     private String country;
 
+    public Adress(){}
+
     public Adress(int number, String city, String state, String country) {
         this.number = number;
         this.city = city;
@@ -46,11 +48,11 @@ public class Adress {
 
     @Override
     public String toString() {
-        return "Adress{" +
-                "number=" + number +
-                ", city='" + city + '\'' +
-                ", state='" + state + '\'' +
-                ", country='" + country + '\'' +
+        return "\n\nAdress{" +
+                "\nnumber=" + number +
+                "\ncity='" + city + '\'' +
+                "\nstate='" + state + '\'' +
+                "\ncountry='" + country + '\'' +
                 '}';
     }
 }
