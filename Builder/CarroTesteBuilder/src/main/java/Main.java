@@ -11,6 +11,10 @@ public class Main {
 
         System.out.println(person);
 
+
+        PersonBuilder personBuilder = PersonBuilder.builder();
+        personBuilder.withName("dggsd");
+
     }
 
 }
