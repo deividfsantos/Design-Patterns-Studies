@@ -13,6 +13,9 @@ public class Main {
         broker.takePlayer(passCommand);
         broker.takePlayer(crossCommand);
 
+        broker.takePlayer(crossCommand);
+
+
         broker.placePlayers();
 
     }
